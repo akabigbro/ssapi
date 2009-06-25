@@ -1,7 +1,7 @@
 #labels Introduction
 Introduction to SSAPI
 
-= Introduction =
+= Overview =
 
 C sockets are a very simple and well established API. The SSAPI (Simple Sockets API) establishes that same lightweight, abstract, and easy to use API and wraps it up into a few simple polymorphic classes.
 

@@ -1,5 +1,5 @@
 #labels Introduction
-#Introduction to SSAPI
+Introduction to SSAPI
 
 = Introduction =
 

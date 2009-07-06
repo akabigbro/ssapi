@@ -43,4 +43,3 @@ ssize_t TcpSocket::Send(const char * buffer, size_t max, int flags) throw(int&)
 {
     return Inet::Send(buffer, max, flags);
 }
-

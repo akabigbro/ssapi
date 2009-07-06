@@ -42,4 +42,3 @@ ssize_t Inet::Send(const char * buffer, size_t max, int flags) throw(int&)
 {
     return Address::Send(buffer, max, flags);
 }
-

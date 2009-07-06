@@ -70,4 +70,3 @@ ssize_t Address::Send(const char * buffer, size_t max, int flags) throw(int&)
 {
     return Socket::Send(buffer, max, flags);
 }
-

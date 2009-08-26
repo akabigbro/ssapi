@@ -28,3 +28,10 @@ ssize_t Socket::Send(const char * buffer, size_t max, int flags) throw(int&)
     return Send(fd, buffer, max, flags);
 }
 
+void Socket::SetOption(int level, int option, const void * value, socklen_t length) throw(int&)
+{
+    if (0 != setsockopt(fd, level, option, value, length))
+    {
+        throw errno;
+    }
+}

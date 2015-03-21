@@ -1,0 +1,1 @@
+The c socket API is well known and defined. I set out to create a lightweight, abstract and easy to use API for sockets in C++. C does a pretty good job of allowing multiple socket types on just one file descriptor type, this is very handy. So I set out to deliver the best C++ solution to mimic this philosophy.
